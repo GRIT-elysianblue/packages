@@ -55,7 +55,7 @@ function raptor_file_check {
     fi
 }
 
-function rhel_remove {
+function rpm_remove {
     RHEL=$(cat /etc/redhat-release)
 
     if [ $? -eq 0 ]; then
